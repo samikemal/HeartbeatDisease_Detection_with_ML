@@ -1,5 +1,4 @@
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import confusion_matrix
 import pandas as pd
 
 df=pd.read_csv("mitbih_train.csv")

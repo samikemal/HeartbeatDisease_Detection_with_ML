@@ -15,7 +15,3 @@ clf = KNeighborsClassifier(n_neighbors=3)
 clf.fit(x_train,y_train)
 score = clf.score(x_test, y_test)
 y_predict=clf.predict_proba(x_test)
-
-#KNN makalede belirtildiği üzere en uzun çalışma zamanına sahip algoritmamız çünkü 
-#bütün veriler için teker teker tüm verileri tekrar değerlendiriyor
-#ancak görüldüğü üzere çok yüksek bir orana sahip
